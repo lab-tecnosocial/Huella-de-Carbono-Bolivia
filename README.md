@@ -1,3 +1,3 @@
-# plantilla-scrollytelling
+# articulo-huella-carbono
 
-Una plantilla de scrollytelling hecha con HTML, CSS y JS. Se pueden integrar visualizaciones de datos hechos con Flourish.
+Para el proyecto https://mihuella.app/
