@@ -18,12 +18,12 @@ body {
     font-family: "Open Sans", 'Roboto';
     overflow-x: hidden;
     color: #051126;
-    letter-spacing: 0.3px;
+    letter-spacing: 0.4px;
     background-color: #a4bcbc;
 }
 
 .text-block {
-    padding: 6rem;
+    padding: 3rem;
     margin: 2vh 10vh 1vh 10vh;
     width: 80%;
     text-align: justify;
@@ -34,18 +34,7 @@ body {
 
 }
 
-.text-block-black {
-    padding: 2rem;
-    margin: 2vh 8vh;
-    width: 70%;
-    text-align: justify;
-    line-height: 1.7;
-    letter-spacing: 0.5px;
-    color: #051126;
-    position: absolute;
-    z-index: 1;
-    font-size: 1.2rem;
-}
+
 
 .text-block-white {
     padding: 2vh 10vh;
@@ -70,7 +59,7 @@ p {
 
 h1 {
     color: white;
-    font-size: 2.5rem;
+    font-size: 2.6rem;
     letter-spacing: 1px;
     margin: 0;
     padding: 0;
@@ -156,8 +145,8 @@ a {
 /* sección de texto y vide0*/
 .container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    grid-template-columns: 50% auto;
+    gap: 10px;
 }
 
 /* para cita, aunque se puede mejorar*/
@@ -252,7 +241,7 @@ a {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    left: 20%;
+    left: 5%;
     height: 100vh;
     width: 80vw;
     z-index: 0;
@@ -576,6 +565,11 @@ a {
             .fa-quote-left {
                 font-size: 3vh!important;
 
+            }
+            .container {
+                display: grid;
+                grid-template-rows: 1fr 1fr;
+                gap: 10px;
             }
 
         }
